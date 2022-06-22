@@ -9,6 +9,11 @@
     </a>
 </p>
 
+
+<p align="center">
+  <b>Defective rate detector.
+</p>
+
 # Data
 
 | column name | description |
@@ -27,4 +32,21 @@
 | CUSTOMER_COUNTRY | customer’s country |
 | MERCHANT_COUNTRY | merchant’s headquarters’ country |
 | PRODUCT_RELEASE_DATE | year the model was released (e.g. 1982 for Nissan Micra), note that this is not the date the vehicle was built (which would be between the release date and today) |
+
+    
+## EDA
+    
+The dataset weigth 48Mo. It contains 196113 rows and 15 columns including c categorical and n numrical columns.  
+Their is Nan values on columns c and d and the columns x seems to contain random values.  
+Their is a strong correlation between column a and b.  
+
+## Target
+    
+Every defective product is associated with a contact date.  
+We can filter on : `DATE_ORDER` - `CONTACT_DATE` <= 30
+    
+## Feature
+    
+- remove `CONTACT_DATE` and `CONTACT_TYPE_DETAILS` features as it helps us to define the taget
+- add `PRICE_FROM_NEW_PERC` : `PRICE` * 100 / `PRICE_NEW`  
 
