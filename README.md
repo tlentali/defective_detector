@@ -126,13 +126,15 @@ weighted avg |	0.887216 |	0.839259 |	0.859223 |	35635.000000 |
 This first modelisation might help as a first step to rise a red flag on potentialy defective items.  
 However it does not revolutionalize the game as the precision and recall on True defective item are quite low.  
 By working more on the feature engineering and by a deeper data cleaning, we can expect to improve our metrics.  
-Even the usage of an optimized classifier might help a little here as we did someting really basic today.
-
+Even the usage of an optimized classifier might help a little here as we did someting really basic today.  
+A feature importance graph is visible in the [pipeline notebook](/notebook/pipeline.ipynb).
+                                    
 # Future improvement
 
 In another hand, we could approach this problem differently by using time series and instead of having to classify defecting product on 30 days, we could get a score depending of the timeframe you are looking for.
 
-Also, it would be interesting if we could add more data focus on the seller and the customer, as I think that we can have a defective rate higher or lower depending of those two, based on their history on the app.
+Also, it would be interesting if we could add more data focus on the seller and the customer, as I think that we can have a defective rate higher or lower depending of those two, based on their history on the app.  
+Having the milage of the car might be the killer feature here.
 
 A work can also be done directly (after a cleaning prossess of course) on the very reason of the defective product, transforming this binary problem in a multiclass one.  
 Leading to be (very) good on certain classes and putting aside the more random defective reasons.
