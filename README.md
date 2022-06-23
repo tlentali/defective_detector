@@ -30,7 +30,7 @@ The actual code used is in `src/`.
 
 
 Also a drafted EDA can be visible on `notebook/eda.ipynb`.  
-A more detailed EDA is visible [here](https://tlentali.github.io/car_market/).  
+A more detailed EDA is visible [here](https://tlentali.github.io/car_market/) and another one focus on the `DEFECTIVE` target [here](https://tlentali.github.io/car_market/defective_report.html).  
 
 # EDA
 
@@ -58,9 +58,7 @@ None of the columns seems to contain random values.
 
 However, we have to filter the rows where the price is not realistic : even if the Xsara is a magnificiant car, I hardly believe that it costs half a million euros for the simple pleasure to drive this red piece of art...  
 A work on the price has to be made.  
-The detailed EDA is available on a data sample [here](https://tlentali.github.io/car_market/).
-
-
+The detailed EDA is available on a data sample [here](https://tlentali.github.io/car_market/) and another one focus on the column `DEFECTIVE` [here](https://tlentali.github.io/car_market/defective_report.html).
 
 ## Target
 
