@@ -109,7 +109,7 @@ We generate dummies features from the following categorial columns :
   - `MERCHANT_COUNTRY`
 
 As the classes are highly unbalanced, we will use an oversampling method ([SMOTE](https://github.com/scikit-learn-contrib/imbalanced-learn)) to balance the binary classes (only 16% of True defective products on raw data).  
-To start simply, I decided to consider this problem as a binary class one.  
+To start simply, I decided to consider this problem as a binary classification one.  
 I trained a unoptimized (I haven't use a [Gridsearch](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html) to test several parameters) [Random Forest](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html) classifier as it doesn't need to scale the data to perform and is easy to visualize the feature importance via a [decision tree explainer](https://github.com/slundberg/shap).
 
 ## Metrics
