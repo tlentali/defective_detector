@@ -124,7 +124,7 @@ macro avg |	0.605398 |	0.676152 |	0.624586 |	35635.000000 |
 weighted avg |	0.887216 |	0.839259 |	0.859223 |	35635.000000 |
 
 This first modelisation might help as a first step to rise a red flag on potentialy defective items.  
-However it does not revolutionalize the game as the precision and recall on True defective item is quite low.  
+However it does not revolutionalize the game as the precision and recall on True defective item are quite low.  
 By working more on the feature engineering and by a deeper data cleaning, we can expect to improve our metrics.  
 Even the usage of an optimized classifier might help a little here as we did someting really basic today.
 
@@ -137,8 +137,8 @@ Also, it would be interesting if we could add more data focus on the seller and 
 A work can also be done directly (after a cleaning prossess of course) on the very reason of the defective product, transforming this binary problem in a multiclass one.  
 Leading to be (very) good on certain classes and putting aside the more random defective reasons.
 
-In a more code quality way, a great improvement would be to add unittest to the script and more docstrings.
+In a more code quality point of view, a great improvement would be to add unittest to the script and more docstrings.
 
 Thank Pola and the BackBox team for this dataset, I enjoyed playing with it.
 
-Made with 🎶 and 🍷 with my beloved refurbish Thinkpad T420 from BackMarket.
+Made with 🎶 and 🍷 with my beloved refurbished Thinkpad T420 from BackMarket.
