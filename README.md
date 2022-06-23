@@ -126,6 +126,7 @@ weighted avg |	0.887216 |	0.839259 |	0.859223 |	35635.000000 |
 
 This first modelisation might help as a first step to rise a red flag on potentialy defective items.  
 However it does not revolutionalize the game as the precision and recall on True defective item are quite low.  
+This is now the baseline to beat !                                       
 By working more on the feature engineering and by a deeper data cleaning, we can expect to improve our metrics.  
 Even the usage of an optimized classifier might help a little here as we did someting really basic today.  
 A feature importance graph is visible in the [pipeline notebook](/notebook/pipeline.ipynb).
