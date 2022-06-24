@@ -78,6 +78,7 @@ We obtain a loss of defective item :
 
 First thing first, we should clean the price repartition.
 From this [notebook](./notebook/eda.ipynb), we can see the different distribution of several price related columns showing clearly the long tail and the noise we can cut off in our data.  
+Removing the outlier using the +3 to -3 standard deviations is not hard enough here as we keep prices up to 120k. I pick the limit up bespoke directly by cutting the long tail of the distribution. This should be improved to automatize the process.  
 From this EDA, two decision has been made :
 
 - the `PRICE` can't be 100% higher than the `PRICE_NEW`
